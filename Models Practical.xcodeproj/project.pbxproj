@@ -22,6 +22,10 @@
 		D120039329B4678E00EE579B /* PastryProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D120039229B4678E00EE579B /* PastryProduct.swift */; };
 		D120039529B4691E00EE579B /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = D120039429B4691E00EE579B /* Hospital.swift */; };
 		D120039729B469AC00EE579B /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = D120039629B469AC00EE579B /* Book.swift */; };
+		D120039A29B46ADC00EE579B /* RandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D120039929B46ADC00EE579B /* RandomUser.swift */; };
+		D120039D29B46B4D00EE579B /* GetRandomUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D120039C29B46B4D00EE579B /* GetRandomUserService.swift */; };
+		D1298C7929B46DB600EA9DA9 /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1298C7829B46DB600EA9DA9 /* University.swift */; };
+		D1298C7B29B4714300EA9DA9 /* GetUniversitiesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1298C7A29B4714300EA9DA9 /* GetUniversitiesService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		D120039229B4678E00EE579B /* PastryProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastryProduct.swift; sourceTree = "<group>"; };
 		D120039429B4691E00EE579B /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
 		D120039629B469AC00EE579B /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		D120039929B46ADC00EE579B /* RandomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUser.swift; sourceTree = "<group>"; };
+		D120039C29B46B4D00EE579B /* GetRandomUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRandomUserService.swift; sourceTree = "<group>"; };
+		D1298C7829B46DB600EA9DA9 /* University.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		D1298C7A29B4714300EA9DA9 /* GetUniversitiesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUniversitiesService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,7 @@
 		D120035929B3FCA400EE579B /* Models Practical */ = {
 			isa = PBXGroup;
 			children = (
+				D120039B29B46B3900EE579B /* NetworkServices */,
 				D120038B29B3FD4000EE579B /* JsonFiles */,
 				D120038A29B3FD3700EE579B /* Models */,
 				D120035A29B3FCA400EE579B /* AppDelegate.swift */,
@@ -144,9 +153,9 @@
 		D120038A29B3FD3700EE579B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D120039229B4678E00EE579B /* PastryProduct.swift */,
-				D120039429B4691E00EE579B /* Hospital.swift */,
-				D120039629B469AC00EE579B /* Book.swift */,
+				D120039829B46ABF00EE579B /* JsonFilesModels */,
+				D120039929B46ADC00EE579B /* RandomUser.swift */,
+				D1298C7829B46DB600EA9DA9 /* University.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -159,6 +168,25 @@
 				D120039029B3FDB900EE579B /* test3.json */,
 			);
 			path = JsonFiles;
+			sourceTree = "<group>";
+		};
+		D120039829B46ABF00EE579B /* JsonFilesModels */ = {
+			isa = PBXGroup;
+			children = (
+				D120039229B4678E00EE579B /* PastryProduct.swift */,
+				D120039429B4691E00EE579B /* Hospital.swift */,
+				D120039629B469AC00EE579B /* Book.swift */,
+			);
+			path = JsonFilesModels;
+			sourceTree = "<group>";
+		};
+		D120039B29B46B3900EE579B /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				D120039C29B46B4D00EE579B /* GetRandomUserService.swift */,
+				D1298C7A29B4714300EA9DA9 /* GetUniversitiesService.swift */,
+			);
+			path = NetworkServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,10 +325,14 @@
 			files = (
 				D120035F29B3FCA400EE579B /* ViewController.swift in Sources */,
 				D120035B29B3FCA400EE579B /* AppDelegate.swift in Sources */,
+				D1298C7929B46DB600EA9DA9 /* University.swift in Sources */,
 				D120039729B469AC00EE579B /* Book.swift in Sources */,
 				D120039329B4678E00EE579B /* PastryProduct.swift in Sources */,
 				D120039529B4691E00EE579B /* Hospital.swift in Sources */,
 				D120035D29B3FCA400EE579B /* SceneDelegate.swift in Sources */,
+				D120039D29B46B4D00EE579B /* GetRandomUserService.swift in Sources */,
+				D1298C7B29B4714300EA9DA9 /* GetUniversitiesService.swift in Sources */,
+				D120039A29B46ADC00EE579B /* RandomUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
